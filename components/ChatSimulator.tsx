@@ -11,7 +11,7 @@ const CHAT_MESSAGES = [
   },
   {
     type: "sent",
-    text: "Olá! 😊 Tudo bem? Sou a assistente virtual do Salão Alegria.",
+    text: "Olá! 😊 Tudo bem? Sou a Gabriela do Salão Alegria.",
     time: "10:02",
   },
   {
@@ -71,7 +71,7 @@ export default function ChatSimulator() {
               <MessageCircle size={18} />
             </div>
             <div>
-              <p className="font-bold text-sm">Assistente Virtual</p>
+              <p className="font-bold text-sm">Gabriela</p>
               <p className="text-xs text-white/80">Online agora</p>
             </div>
           </div>

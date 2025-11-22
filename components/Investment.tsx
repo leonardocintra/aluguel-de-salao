@@ -53,16 +53,16 @@ function Investment() {
             </div>
             <h3 className="text-2xl font-bold mb-2">Manutenção Mensal</h3>
             <p className="text-green-100 mb-6">
-              Para manter seu negócio rodando 24/7.
+              Monitoro e mantenho o sistema atualizado para você.
             </p>
             <div className="flex items-baseline mb-6">
               <span className="text-4xl font-extrabold">R$ 87,90</span>
               <span className="text-lg text-green-100 ml-1">/mês</span>
             </div>
-            <ul className="space-y-3 mb-8">
+            <ul className="space-y-3 mb-6">
               <li className="flex items-center text-green-50">
-                <CheckCircle2 size={18} className="text-white mr-2" /> Servidor
-                online 24 horas
+                <CheckCircle2 size={18} className="text-white mr-2" />{" "}
+                Monitoramento 24/7
               </li>
               <li className="flex items-center text-green-50">
                 <CheckCircle2 size={18} className="text-white mr-2" /> Ajustes
@@ -74,9 +74,14 @@ function Investment() {
               </li>
               <li className="flex items-center text-green-50">
                 <CheckCircle2 size={18} className="text-white mr-2" />{" "}
-                Atualizações do WhatsApp
+                Atualizações do sistema
               </li>
             </ul>
+            <div className="bg-green-700/50 rounded-lg p-3 mb-6 text-xs text-green-50">
+              <p className="font-semibold mb-1">* Custos adicionais à parte:</p>
+              <p>• Hospedagem do servidor</p>
+              <p>• Tokens de IA (conforme uso)</p>
+            </div>
             <button className="w-full bg-white text-green-600 py-4 rounded-xl font-bold text-lg hover:bg-green-50 transition shadow-lg">
               Começar Agora
             </button>
