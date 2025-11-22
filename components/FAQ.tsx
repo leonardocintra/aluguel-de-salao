@@ -21,9 +21,9 @@ const FAQ_ITEMS = [
 ];
 
 export default function FAQ() {
-  const [activeFaq, setActiveFaq] = useState(null);
+  const [activeFaq, setActiveFaq] = useState<number | null>(null);
   const toggleFaq = useCallback(
-    (i) => setActiveFaq((s) => (s === i ? null : i)),
+    (i: number | null) => setActiveFaq((s) => (s === i ? null : i)),
     []
   );
 
